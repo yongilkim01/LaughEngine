@@ -1,2 +1,4 @@
 ﻿  Application.cpp
+  WinMain.cpp
+  pch.cpp
   BlankProject.vcxproj -> C:\Users\yongi\OneDrive\projects\LaughEngine\Build\BlankProject\Debug\BlankProject.exe

@@ -12,9 +12,17 @@ Application::~Application()
 {
 }
 
+VOID Application::SetupPerGameSettings()
+{
+	/* Set the Per Game Settings */
+	PerGameSettings::SetGameName(IDS_PERGAMENAME);
+	PerGameSettings::SetShortName(IDS_SHORTNAME);
+	PerGameSettings::SetMainIcon(IDI_MAINICON);
+}
+
 VOID Application::Initialize()
 {
-	MessageBox(0, L" Initialize application ", 0, 0);
+	Logger::PrintLog(L"I have Loaded Up");
 }
 
 VOID Application::Update()

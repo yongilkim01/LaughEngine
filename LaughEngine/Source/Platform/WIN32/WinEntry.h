@@ -7,6 +7,10 @@ INT CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 {
 	auto app = EntryApplication();
 
+	PerGameSettings gameSettings;
+	app->SetupPerGameSettings();
+
+	Logger logger;
 	app->Initialize();
 
 	MSG msg = { 0 };

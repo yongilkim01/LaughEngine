@@ -12,6 +12,9 @@ public:
 	~Application();
 
 public:
+	/* Setup game setting*/
+	VOID SetupPerGameSettings();
+
 	/* Initialize Function */
 	VOID Initialize();
 

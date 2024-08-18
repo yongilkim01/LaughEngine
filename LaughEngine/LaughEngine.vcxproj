@@ -61,7 +61,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>LaughEngine.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source;C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\LaughEngine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -80,7 +80,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>LaughEngine.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\LaughEngine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -90,10 +90,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Common\Logger.cpp" />
+    <ClCompile Include="Source\Common\Time.cpp" />
+    <ClCompile Include="Source\Core\PerGameSettings.cpp" />
     <ClCompile Include="Source\LaughEngine.cpp" />
     <ClCompile Include="Source\Platform\WIN32\IApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Common\Logger.h" />
+    <ClInclude Include="Source\Common\Time.h" />
+    <ClInclude Include="Source\Core\PerGameSettings.h" />
     <ClInclude Include="Source\LaughEngine.h" />
     <ClInclude Include="Source\Platform\WIN32\IApplication.h" />
     <ClInclude Include="Source\Platform\WIN32\WinEntry.h" />

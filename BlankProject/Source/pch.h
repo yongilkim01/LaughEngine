@@ -8,3 +8,5 @@
 #define HInstance() GetModuleHandle(NULL)
 
 #include "LaughEngine.h"
+
+#include "Common/Logger.h"

@@ -12,10 +12,13 @@ public:
 	virtual ~IApplication() {};
 
 public:
+	/* Setup game setting */
+	virtual VOID SetupPerGameSettings() = 0;
+
 	/* Initialize Function */
 	virtual VOID Initialize() = 0;
 
-	/* Game Loop Function */
+	/* Game loop Function */
 	virtual VOID Update() = 0;
 };
 

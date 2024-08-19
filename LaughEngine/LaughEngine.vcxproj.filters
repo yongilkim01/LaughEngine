@@ -76,12 +76,6 @@
     <ClCompile Include="Source\Core\CoreDefinition.cpp">
       <Filter>Source\Core\Private</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Engine\LEngine.cpp">
-      <Filter>Source\Engine\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Engine\Simulation.cpp">
-      <Filter>Source\Engine\Classes</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Platform\WIN32\IApplication.cpp">
       <Filter>Source\Platform\Private</Filter>
     </ClCompile>
@@ -93,6 +87,21 @@
     </ClCompile>
     <ClCompile Include="Source\Common\CmdLineArgs.cpp">
       <Filter>Source\Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\SplashScreen.cpp">
+      <Filter>Source\Engine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\LEngine.cpp">
+      <Filter>Source\Engine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Simulation.cpp">
+      <Filter>Source\Engine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\SubObject.cpp">
+      <Filter>Source\Platform\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\Window.cpp">
+      <Filter>Source\Platform\Private</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -111,12 +120,6 @@
     <ClInclude Include="Source\Core\CoreDefinition.h">
       <Filter>Source\Core\Public</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Engine\Simulation.h">
-      <Filter>Source\Engine\Private</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Engine\LEngine.h">
-      <Filter>Source\Engine\Private</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Platform\WIN32\IApplication.h">
       <Filter>Source\Platform\Classes</Filter>
     </ClInclude>
@@ -131,6 +134,21 @@
     </ClInclude>
     <ClInclude Include="Source\Common\CmdLineArgs.h">
       <Filter>Source\Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\SplashScreen.h">
+      <Filter>Source\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\LEngine.h">
+      <Filter>Source\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Simulation.h">
+      <Filter>Source\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\SubObject.h">
+      <Filter>Source\Platform\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\Window.h">
+      <Filter>Source\Platform\Classes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

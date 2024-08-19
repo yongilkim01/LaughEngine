@@ -1,25 +1,29 @@
 #pragma once
 
-#define ENTRYAPP(x) IApplication* EntryApplication() { return new x; }
+#define ENTRYAPP(x) Win32::IApplication* EntryApplication() { return new x; }
 
-class LAUGH_API IApplication
+namespace Win32
 {
-public:
-	/* Application Constructor */
-	IApplication();
 
-	/* Application Deconstructor */
-	virtual ~IApplication() {};
+	class LAUGH_API IApplication
+	{
+	public:
+		/* Application Constructor */
+		IApplication();
 
-public:
-	/* Setup game setting */
-	virtual VOID SetupPerGameSettings() = 0;
+		/* Application Deconstructor */
+		virtual ~IApplication() {};
 
-	/* Initialize Function */
-	virtual VOID Initialize() = 0;
+	public:
+		/* Setup game setting */
+		virtual VOID SetupPerGameSettings() = 0;
 
-	/* Game loop Function */
-	virtual VOID Update() = 0;
-};
+		/* Initialize Function */
+		virtual VOID Initialize() = 0;
 
-IApplication* EntryApplication();
+		/* Game loop Function */
+		virtual VOID Update() = 0;
+	};
+
+	IApplication* EntryApplication();
+}

@@ -1,21 +1,10 @@
 #pragma once
 
 #ifdef WIN32
-
-#include <Windows.h>
-
+	#include <Windows.h>
 #endif
 
-#ifdef BUILD_DLL
-	#define LAUGH_API __declspec(dllexport)
-#else
-	#define LAUGH_API __declspec(dllimport)
-#endif
+#include <string>
 
-#define MAX_NAME_STRING 256
-#define HInstance() GetModuleHandle(NULL)
 
-#include "Common/Logger.h"
-#include "Common/Time.h"
-
-#include "Core/PerGameSettings.h"
+#include "Core/Core.h"

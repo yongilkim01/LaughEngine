@@ -1,6 +1,12 @@
-﻿  Logger.cpp
+﻿  CmdLineArgs.cpp
+  Logger.cpp
   Time.cpp
+  Core.cpp
+  CoreDefinition.cpp
+  CoreMinimal.cpp
   PerGameSettings.cpp
+  LEngine.cpp
+  Simulation.cpp
   LaughEngine.cpp
   IApplication.cpp
      C:\Users\yongi\OneDrive\projects\LaughEngine\\Build\LaughEngine\Debug\LaughEngine.lib 라이브러리 및 C:\Users\yongi\OneDrive\projects\LaughEngine\\Build\LaughEngine\Debug\LaughEngine.exp 개체를 생성하고 있습니다.

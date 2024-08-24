@@ -18,6 +18,9 @@ namespace Win32
 		/* Setup game setting */
 		virtual VOID SetupPerGameSettings() = 0;
 
+		/* Pre-Initialize Function */
+		virtual VOID PreInitialize() = 0;
+
 		/* Initialize Function */
 		virtual VOID Initialize() = 0;
 

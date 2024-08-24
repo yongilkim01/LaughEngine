@@ -16,7 +16,7 @@ INT CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 
 	Logger logger;
 
-	SplashScreen::Open();
+	app->PreInitialize();
 
 	app->Initialize();
 

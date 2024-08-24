@@ -11,4 +11,6 @@ C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source\Engine\SplashScr
 C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source\LaughEngine.cpp;C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Intermediate\Debug\LaughEngine.obj
 C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source\Platform\WIN32\IApplication.cpp;C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Intermediate\Debug\IApplication.obj
 C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source\Platform\Win32\SubObject.cpp;C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Intermediate\Debug\SubObject.obj
+C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source\Platform\Win32\w32Caption.cpp;C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Intermediate\Debug\w32Caption.obj
+C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source\Platform\Win32\Win32Utils.cpp;C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Intermediate\Debug\Win32Utils.obj
 C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Source\Platform\Win32\Window.cpp;C:\Users\yongi\OneDrive\projects\LaughEngine\LaughEngine\Intermediate\Debug\Window.obj

@@ -20,9 +20,6 @@
     <Filter Include="Source\Core\Private">
       <UniqueIdentifier>{2c6513c0-1414-40dd-93a2-82a0ff9dfa9e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\Core\C%3basses">
-      <UniqueIdentifier>{05044b4a-666c-4b6a-817e-2374253dd342}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\Engine">
       <UniqueIdentifier>{5dfd3a59-5e7a-42cd-a42e-5c3b8575ea97}</UniqueIdentifier>
     </Filter>
@@ -58,6 +55,9 @@
     </Filter>
     <Filter Include="Source\Common\Private">
       <UniqueIdentifier>{984c82a9-9205-4f72-8a79-a9318a705ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Classes">
+      <UniqueIdentifier>{05044b4a-666c-4b6a-817e-2374253dd342}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +103,12 @@
     <ClCompile Include="Source\Platform\Win32\Window.cpp">
       <Filter>Source\Platform\Private</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\Win32Utils.cpp">
+      <Filter>Source\Platform\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\w32Caption.cpp">
+      <Filter>Source\Platform\Private</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\LaughEngine.h">
@@ -115,7 +121,7 @@
       <Filter>Source\Core\Public</Filter>
     </ClInclude>
     <ClInclude Include="Source\Core\PerGameSettings.h">
-      <Filter>Source\Core\C%3basses</Filter>
+      <Filter>Source\Core\Classes</Filter>
     </ClInclude>
     <ClInclude Include="Source\Core\CoreDefinition.h">
       <Filter>Source\Core\Public</Filter>
@@ -148,6 +154,12 @@
       <Filter>Source\Platform\Classes</Filter>
     </ClInclude>
     <ClInclude Include="Source\Platform\Win32\Window.h">
+      <Filter>Source\Platform\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\Win32Utils.h">
+      <Filter>Source\Platform\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\w32Caption.h">
       <Filter>Source\Platform\Classes</Filter>
     </ClInclude>
   </ItemGroup>

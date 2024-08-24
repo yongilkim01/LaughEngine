@@ -5,6 +5,6 @@
 #endif
 
 #include <string>
-
+#include <list>
 
 #include "Core/Core.h"

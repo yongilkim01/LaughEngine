@@ -18,8 +18,8 @@ namespace Win32
         /// Sets and clears style flags for a particular window.
         inline VOID LAUGH_API ModifyWindowStyle(HWND hWnd, DWORD flagsToDisable, DWORD flagsToEnable)
         {
-            DWORD style = GetWindowLong(hWnd, GWL_STYLE);
-            SetWindowLong(hWnd, GWL_STYLE, (style & ~flagsToDisable) | flagsToEnable);
+            //DWORD style = GetWindowLong(hWnd, GWL_STYLE);
+           // SetWindowLong(hWnd, GWL_STYLE, (style & ~flagsToDisable) | flagsToEnable);
         }
 
         /// Sets and clears extended style flags for a particular window.

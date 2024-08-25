@@ -12,7 +12,7 @@ INT CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 	PerGameSettings gameSettings;
 	app->SetupPerGameSettings();
 
-	CmdLineArgs::ReadArguments();
+	//CmdLineArgs::ReadArguments();
 
 	Logger logger;
 

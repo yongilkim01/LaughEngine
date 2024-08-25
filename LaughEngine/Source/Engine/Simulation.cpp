@@ -20,7 +20,7 @@ namespace LaughEngine {
 		Logger::PrintLog(L"Boot Time: %s\n", Time::GetDateTimeString().c_str());
 		Logger::PrintLog(L"Engine Mode: %s\n", Engine::EngineModeToString().c_str());
 
-		SplashScreen::Open();
+		//SplashScreen::Open();
 
 		Win32::Window::RegisterNewClass();
 		Win32::Window::Initialize();
